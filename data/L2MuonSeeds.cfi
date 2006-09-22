@@ -2,4 +2,5 @@ module L2MuonSeeds = L2MuonSeedGenerator{
     double L1MinPt = 0.0
     double L1MaxEta = 2.5
     double L1MinQuality = 1.0
+    InputTag src = l1extramctruth
 }
