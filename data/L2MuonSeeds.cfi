@@ -1,6 +1,12 @@
+include "RecoMuon/TrackingTools/data/MuonServiceProxy.cff"
+
 module L2MuonSeeds = L2MuonSeedGenerator{
+    using MuonServiceProxy
+    
+    string Propagator = "SteppingHelixPropagatorAny"
+    
     double L1MinPt = 0.0
     double L1MaxEta = 2.5
-    double L1MinQuality = 1.0
-    InputTag src = l1extramctruth
+    uint32 L1MinQuality = 1
+    InputTag InputObjects = l1extramctruth
 }
