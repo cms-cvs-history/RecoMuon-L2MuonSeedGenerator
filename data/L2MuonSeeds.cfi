@@ -1,5 +1,3 @@
-include "RecoMuon/TrackingTools/data/MuonServiceProxy.cff"
-
 module L2MuonSeeds = L2MuonSeedGenerator{
     using MuonServiceProxy
     
