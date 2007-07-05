@@ -7,5 +7,5 @@ module L2MuonSeeds = L2MuonSeedGenerator{
     double L1MaxEta = 2.5
     uint32 L1MinQuality = 1
     InputTag InputObjects = l1extraParticles
-    InputTag GMTReadoutCollection = gmt
+    InputTag GMTReadoutCollection = l1GmtEmulDigis
 }
